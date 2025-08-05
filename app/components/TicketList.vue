@@ -91,7 +91,7 @@ const getTickets = async () => {
 
 (async () => {
   let index = 0;
-  while (index < 1) {
+  while (index < 100) {
     index++;
     const stop = await getTickets();
     if (stop) break;
